@@ -12,7 +12,7 @@ controller_pid=$!
 worker_pid=$!
 
 # Sleep for 30 seconds
-sleep 30 
+sleep 90
 
 # Launch server.sh in foreground 
 ./server.sh

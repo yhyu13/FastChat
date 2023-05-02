@@ -1,8 +1,10 @@
-MODEL_NAME='vicuna-13b-v1.1'
-MODEL_PATH=/home/hangyu5/Documents/Hugging-Face/vicuna-13B-1.1-HF/
+#MODEL_NAME='vicuna-13b-v1.1'
+MODEL_NAME='vicuna-7b-v1.1'
+#MODEL_PATH=/home/hangyu5/Documents/Hugging-Face/vicuna-13B-1.1-HF/
+MODEL_PATH=/home/hangyu5/Documents/Hugging-Face/vicuna-7B-1.1-HF/
 DEVICE=cuda
 #GPUS='0,1'
-GPUS='0'
+GPUS='1'
 #NUM_GPUS=2
 NUM_GPUS=1
 #ATE_BIT=""
